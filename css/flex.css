@@ -1,0 +1,159 @@
+/* Общие свойства */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-image: url("../img/background.png");
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1170px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+      box-sizing: border-box;
+     /* border: 1px solid black; */
+}
+.col-1 { flex-basis: 8.3333%;}
+
+.col-2 { 
+    flex-basis: 16.6667%;
+     padding: 20px;
+}
+.col-3 { flex-basis: 24.9999%;}
+
+.col-4 { flex-basis: 33.3332%;}  
+
+.col-5 { flex-basis: 41.6665%;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.col-6 { flex-basis: 49.9998%;}
+
+.col-7 { flex-basis: 58.331%;}
+
+.col-8 { flex-basis: 66.6664%;}
+
+.col-9 { flex-basis: 74.9997%;}
+
+.col-10 { 
+    flex-basis: 83.3333%;
+    padding: 30px;
+    font-size: 18px;
+}
+.col-11 { flex-basis: 91.6663%;}
+
+.col-12 {flex-basis: 100%;}
+
+.logo-img, .color-red-img, .color-img, .size-img, .dotcolors-img, .ellipse-img {
+     max-width: 100%;
+}
+
+.background-header-img {
+    max-width: 100%;
+    background-color: #f2f2f2;
+    background-image: url("../img/background.png"); 
+    opacity: 1;
+}   
+.background-img {
+    max-width: 100%;
+    background-color:#f3dde1;
+    background-image: url("../img/background.png"); 
+    opacity: 1;
+} 
+
+.headphones-img, .speakers-img, .bluetooth-img {
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+    max-width: 100%;  
+}
+.bluetooth-img {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    max-width: 100%;  
+}
+.headphones-circle-img {
+    position: relative;
+    top: 35px;
+    left: 120px;
+    max-width: 50%;
+}
+.text {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product {
+    color: red;
+    background-image: url(bg_product.png);
+
+}
+.FEATURES {
+   align-content: center;
+}
+button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    height: 40px;
+    width: 180px;
+}
+.INTONE {
+    margin: 20px;
+    padding-top: 20px;
+}
+.button-1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    height: 30px;
+    width: 100px;
+
+}
+.FEATURES {
+    text-align: center;
+}
+
+.size img {
+    opacity: 0.2;
+}
+.colors img {
+    opacity: 1;
+}
+h4 {
+    text-align: center;
+}
+p {
+   font-size: 14px;
+}
+a {
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+    margin: 8px;
+}
+.colors {
+    align-content: center;
+}
